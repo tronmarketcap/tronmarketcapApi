@@ -39,3 +39,14 @@ Response:
 ```
 [{"exchange_id":"43","symbol":"dice","first_token_id":"dice","price":"0.079982","volume":"60561401","up_down_percent":"3.0059","supply":"1599903419","marketcap":"93713.663641","website":"https:\/\/dicecoin.io\/","explorer":"https:\/\/tronscan.org\/#\/token\/dice\/TUgE94frLY3CPycEmjgHvT9YVPvgCSLcZ4","social":"https:\/\/t.me\/TRONdiceofficial","whitepaper":"","created":"2016-10-09"}]
 ```
+
+
+### `GET /blacklistTokens`
+
+URL:
+https://tronmarketcap.org/api/v1/public/blacklistTokens
+
+Response:
+```
+[{"blacklist":"IGg"},{"blacklist":"Sesameseed"},{"blacklist":"twx"}]
+```
